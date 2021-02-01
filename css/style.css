@@ -2,7 +2,6 @@
 p{
   text-align: center;
   line-height: 250px;
-
 }
 /* /mix */
 
@@ -28,6 +27,14 @@ p{
   background-color: pink;
 }
 .nested{
-  border: 1px solid white;  
+  border: 1px solid white;
+  background-color: red;
+  margin: 2px;
+}
+.col-2.nested{
+  width: calc(((100% / 12) * 2) - 6px);
+}
+.col-6.nested{
+  width: calc(((100% / 12) * 6) - 6px);
 }
 /* /stile colonne */
