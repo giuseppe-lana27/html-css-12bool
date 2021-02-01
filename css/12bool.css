@@ -1,0 +1,23 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /Reset */
+
+/* framework */
+.container{
+  max-width: 117px ;
+  margin: 0 auto;
+}
+
+.container::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+[class*='col-']{
+  float: left;
+}
