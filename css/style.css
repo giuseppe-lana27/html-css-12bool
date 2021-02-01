@@ -32,9 +32,9 @@ p{
   margin: 2px;
 }
 .col-2.nested{
-  width: calc(((100% / 12) * 2) - 6px);
+  width: calc(((100% / 12) * 2) - 8px);
 }
 .col-6.nested{
-  width: calc(((100% / 12) * 6) - 6px);
+  width: calc(((100% / 12) * 6) - 8px);
 }
 /* /stile colonne */
