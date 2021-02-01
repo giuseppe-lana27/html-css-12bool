@@ -1,0 +1,14 @@
+.container{
+  border: 1px solid black;
+}
+
+.col-1{
+  border: 1px solid black;
+  background-color: pink;
+  height: 100px;
+}
+.col-1 p{
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+}
